@@ -63,7 +63,7 @@ real-tech-courses/
 
 ## Live Demo
 
-[View the deployed website here](https://your-live-demo-link.com)
+[View the deployed website here](https://tech-course.netlify.app/)
 
 ---
 
