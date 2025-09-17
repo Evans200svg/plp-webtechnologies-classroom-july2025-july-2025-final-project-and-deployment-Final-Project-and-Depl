@@ -1,90 +1,84 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Real Tech Courses Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+Welcome to the **Real Tech Courses** project! This is a modern, responsive educational platform website built with HTML, CSS, and JavaScript. It showcases tech courses, allows users to enroll, and provides interactive features for a better user experience.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## Features
 
-Before you write any code, take time to plan:
+- **Home Page:** Hero section, about, available courses, testimonials, and footer.
+- **Navigation:** Easy access to all pages (Home, Catalog, Login, Register, Details, Enroll, Certification, Feedback).
+- **Course Catalog:** Displays available tech courses with images and descriptions.
+- **Enrollment:** Users can enroll in courses.
+- **Certification:** Information about course certification.
+- **Feedback:** Users can submit feedback.
+- **Login/Register:** Authentication pages for users.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+### Interactivity (Powered by `script.js`)
 
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+- **Navigation Highlight:** Navigation links highlight on mouse hover for better visibility.
+- **Smooth Scrolling:** Clicking anchor links smoothly scrolls to the target section.
+- **Course Card Hover Effect:** Course cards visually pop out when hovered, making browsing more engaging.
+- **Toast Notification:** When the "Enroll now" button is clicked, a toast notification appears and then redirects to the enrollment page.
+- **Dark Mode Toggle:** A button in the footer lets users switch between light and dark modes for comfortable viewing.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## File Structure
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+```
+real-tech-courses/
+│
+├── index.html
+├── catalog.html
+├── login.html
+├── register.html
+├── course-details.html
+├── enroll.html
+├── certificate.html
+├── feedback.html
+├── styles.css
+├── script.js
+└── README.md
+```
 
 ---
 
-## Deliverables
+## How to Run
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+1. **Clone or Download** the repository.
+2. Open `index.html` in your browser to view the homepage.
+3. Navigate through other pages using the navigation bar.
+4. All interactivity is handled by `script.js` (already linked in each HTML file).
 
 ---
 
-## Outcome
+## Customization
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- **Add/Edit Courses:** Modify the course sections in `index.html` or `catalog.html`.
+- **Change Styles:** Edit `styles.css` for custom colors, fonts, or layouts.
+- **Enhance Interactivity:** Update `script.js` to add more dynamic features.
+
+---
+
+## Live Demo
+
+[View the deployed website here](https://your-live-demo-link.com)
+
+---
+
+## Credits
+
+- Images from [Pexels](https://pexels.com) and [iStock](https://istockphoto.com)
+- Developed by [Evanson Kahuha]
+
+---
+
+
+## License
+
+This project is for educational purposes.
+
+---
+
+Enjoy learning with Real Tech Courses!
